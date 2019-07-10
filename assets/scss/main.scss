@@ -43,10 +43,15 @@ body{
 	font-size: 30px;
 	line-height: 50px;
 	text-align: center;
+	
+	background-color: $body-bg-color;
+
 	text-transform: uppercase;
 	left: calc(50vw / 2);
+
 	border: 1px solid #fff;
 	border-radius: 5em;
+
 	top: calc((100vw - 50px) / 2);
 	transition-property: color, background-color;
 	transition-duration: .3s;
