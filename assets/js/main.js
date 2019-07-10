@@ -1,5 +1,7 @@
 $(document).ready(function() {
 	particlesJS.load('particles', 'assets/particles.json',function(){
-		$("#particles").fadeIn("slow");
+		setTimeout(function(){
+			$("#particles").fadeIn("slow");
+		},100)
 	});
 });
