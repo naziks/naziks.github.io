@@ -11,3 +11,46 @@ body{
 	color:#fff;
 	background-color: $body-bg-color;
 }
+
+#particles{
+	display: block;
+	position: absolute;
+}
+
+.container{
+	display: block;
+	width: 100vw;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width: 900px){
+	.container{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+.text{
+	display: block;
+	position: fixed;
+	width: calc(100vw - 20px);
+	max-width: 500px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	left: calc(50vw / 2);
+	border: 1px solid #fff;
+	border-radius: 5em;
+	top: calc((100vw - 50px) / 2);
+	transition-property: color, background-color;
+	transition-duration: .3s;
+	transition-timing-function: ease-in-out;
+	&:hover{
+		background-color: #fff;
+		color:$body-bg-color;
+	}
+}
