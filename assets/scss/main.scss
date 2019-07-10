@@ -47,12 +47,12 @@ body{
 	background-color: $body-bg-color;
 
 	text-transform: uppercase;
-	left: calc(50vw / 2);
 
 	border: 1px solid #fff;
 	border-radius: 5em;
 
-	top: calc((100vw - 50px) / 2);
+	top: calc((100vh - 50px) / 2);
+	left: calc((100vw - 500px) / 2);
 	transition-property: color, background-color;
 	transition-duration: .3s;
 	transition-timing-function: ease-in-out;
@@ -60,5 +60,11 @@ body{
 	&:hover{
 		background-color: #fff;
 		color:$body-bg-color;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.text{
+		left: 10px;
 	}
 }
