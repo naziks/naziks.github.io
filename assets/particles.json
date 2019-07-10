@@ -41,7 +41,7 @@
 			"anim": {
 				"enable": true,
 				"speed": 10,
-				"size_min": 40,
+				"size_min": 25,
 				"sync": false
 			}
 		},
