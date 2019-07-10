@@ -1,5 +1,5 @@
-particlesJS.load('particles', 'assets/particles.json');
-
 $(document).ready(function() {
-	$("#particles").fadeIn();
+	particlesJS.load('particles', 'assets/particles.json',function(){
+		$("#particles").fadeIn();
+	});
 });
