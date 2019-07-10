@@ -21,8 +21,8 @@
 			},
 			"image": {
 				"src": "https://github.com/naziks/naziks.github.io/raw/master/assets/img/p.png",
-				"width": 25,
-				"height": 25
+				"width": 15,
+				"height": 15
 			}
 		},
 		"opacity": {
@@ -91,7 +91,7 @@
 				"distance": 400,
 				"size": 20,
 				"duration": 2,
-				"opacity": 8,
+				"opacity": 2,
 				"speed": 3
 			},
 			"repulse": {
