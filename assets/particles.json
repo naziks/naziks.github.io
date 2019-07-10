@@ -1,7 +1,7 @@
 {
 	"particles": {
 		"number": {
-			"value": 10,
+			"value": 20,
 			"density": {
 				"enable": true,
 				"value_area": 800
@@ -21,8 +21,8 @@
 			},
 			"image": {
 				"src": "https://github.com/naziks/naziks.github.io/raw/master/assets/img/p.png",
-				"width": 100,
-				"height": 100
+				"width": 50,
+				"height": 50
 			}
 		},
 		"opacity": {
@@ -72,10 +72,10 @@
 		"events": {
 			"onhover": {
 				"enable": true,
-				"mode": "push"
+				"mode": "bubble"
 			},
 			"onclick": {
-				"enable": true,
+				"enable": false,
 				"mode": "repulse"
 			},
 			"resize": true
